@@ -20,6 +20,7 @@
     color: white;
     border: 2px solid black;
     border-radius: 10%;
+    transition: all 0.07s;
 }
 
 kbd{
@@ -32,4 +33,9 @@ kbd{
     text-transform: uppercase;
     letter-spacing: 1px;
     color: orange;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: orange;
 }
